@@ -8,12 +8,12 @@
       h1 Gráfico secuencial de funciones (Grafcet)
 
     .row.mb-5
-      .col-lg-7    
+      .col-lg-7.slideInLeft    
         .cajon-b.color-acento-secundario.p-3.mb-5(data-aos='flip-up')
           p.mb-3  La programación es una sucesión ordenada de instrucciones escritas en un lenguaje de programación, cuyo objetivo es controlar un determinado proceso. El Grafcet permite una lógica amigable en la programación y brinda beneficios en el uso de los PLC, debido a la facilidad de su aplicación mediante la utilización de elementos gráficos y reglas de evolución que reflejan la dinámica del comportamiento del sistema. Todo automatismo secuencial o concurrente se puede estructurar en una serie de etapas que representan estados o subestados del sistema en los cuales se realiza una o más acciones, así como transiciones, que son las condiciones que deben darse para pasar de una etapa a otra.
           p.mb-3  Hacen parte de los elementos básicos de un Grafcet, las etapas, las acciones, la transición y la receptividad.
 
-      .col-lg-5
+      .col-lg-5.slideInUp
         figure.mb-5(data-aos='flip-left')
           img(src="@/assets/curso/t3-i1.jpg", alt="imagen decorativa")
 
@@ -64,7 +64,35 @@
         p.mb-3  Son las condiciones que el sistema debe superar para pasar de una etapa a otra y se representan por un pequeño segmento horizontal cortando la línea de enlace entre dos etapas. Hay transiciones de entrada y de salida. Las receptividades son la condición o condiciones que se deben superar para poder pasar una transición. Por ejemplo: 
         p.mb-3  Las líneas de enlace son líneas verticales u horizontales que unen con una dirección significativa, a no ser que indiquen lo contrario las distintas etapas con las transiciones y las transiciones con las etapas.
     
-    //-- Aqui viene el cajon customizado
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        .tarjeta.r-0.color-primario--borde
+          .row
+            .col-lg-6
+              .c3.p-4.h-100.d-flex.align-items-center
+                ul.lista-ul
+                  li
+                    i.fas.fa-check
+                    p.mb-0  Una condición simple [A y]
+                  li
+                    i.fas.fa-check
+                    p.mb-0  Una función booleana [( A y + A k)* A a ' * ] 
+                  li
+                    i.fas.fa-check  
+                    p.mb-0   La señal de un temporizador o contador [ T03 ]
+                  li
+                    i.fas.fa-check
+                    p.mb-0  La activación de otra etapa del Grafcet [ X 2 ] 
+                  li
+                    i.fas.fa-check
+                    p.mb-0  Donde X indica que la receptividad está condicionada al hecho que la etapa 2 este activa.                                       
+                                         
+            .col-lg-6
+              .p-4
+                figcaption.customCaption  <b>Figura</b> Transiciones Grafcet  
+                figure.mb-5(data-aos='flip-left')
+                  img.nW.centered(src="@/assets/curso/t3-i4.png", alt="imagen decorativa")            
+                figcaption  Nota. Leiva (2016).
 
     h3.titulo-tercero
       i.fas.fa-angle-right
@@ -74,10 +102,15 @@
       .col-lg-2
         figure.mb-5(data-aos='flip-left')
           img(src="@/assets/curso/t3-ic3.svg", alt="imagen decorativa")
-      .col-lg-10(data-aos='slide-left')
+      .col-lg-9(data-aos='slide-left')
         p.mb-4  Los diagramas se dibujan teniendo en cuenta la sucesión alternada de las etapas y sus transiciones
-        .cajon.p-4.color-secundario  
-          p No se pueden presentar dos etapas seguidas ni dos transiciones seguidas.   
+        .cajon.p-4.color-primario(data-aos='flip-up') 
+          .row
+            .col-1
+              figure
+                img.nW(src="@/assets/curso/t3-ic11.svg", alt="imagen decorativa")
+            .col-10
+              p.mb-0 No se pueden presentar dos etapas seguidas ni dos transiciones seguidas.   
 
     h3.titulo-tercero
       i.fas.fa-angle-right
@@ -85,14 +118,65 @@
 
     p.mb-5  En los siguientes ejemplos se evidencia cómo hacer un correcto e incorrecto desarrollo del Grafcet:
 
-    //-- Aqui vienen los tabs
+    TabsC.color-primario.mb-5
+      .py-3.py-md-4(titulo="Ejemplo 1")
+        .row.justify-content-center
+          .col-md-5.mb-4.mb-md-0
+            .tarjeta.color-acento-contenido--borde.h-100
+              br
+              figure.mb-4(data-aos='flip-up')
+                img.nW.centered(src="@/assets/curso/txt-w.svg", alt="imagen decorativa")
 
-    
+              figure.mb-4(data-aos='flip-up')
+                img.nW.centered(src="@/assets/curso/t3-c1.png", alt="imagen decorativa") 
+              .wrap-txt Entre las etapas 200 y 201 o entre las etapas 200 y 202 hay dos condiciones para la transición (000 y 001 o 000 y 002). No es correcto.    
+          .col-md-5.mb-4.mb-md-0
+            .tarjeta.color-acento-botones--borde.h-100
+              br
+              figure.mb-4(data-aos='flip-up')
+                img.nW.centered(src="@/assets/curso/txt-R.svg", alt="imagen decorativa")
+
+              figure.mb-4(data-aos='flip-up')
+                img.nW.centered(src="@/assets/curso/t3-c2.png", alt="imagen decorativa") 
+              .wrap-txt Entre las etapas 200 y 201 o entre las etapas 200 y 202 hay dos condiciones para la transición (000 y 001 o 000 y 002). No es correcto.    
+
+      .py-3.py-md-4(titulo="Ejemplo 2")
+        .row.justify-content-center
+          .col-md-5.mb-4.mb-md-0
+            .tarjeta.color-acento-contenido--borde.h-100
+              br
+              figure.mb-4(data-aos='flip-up')
+                img.nW.centered(src="@/assets/curso/txt-w.svg", alt="imagen decorativa")
+
+              figure.mb-4(data-aos='flip-up')
+                img.nW.centered(src="@/assets/curso/t3-c3.png", alt="imagen decorativa") 
+              .wrap-txt No puede haber dos etapas seguidas, ni tampoco dos transiciones seguidas. 
+          .col-md-5.mb-4.mb-md-0
+            .tarjeta.color-acento-botones--borde.h-100
+              br
+              figure.mb-4(data-aos='flip-up')
+                img.nW.centered(src="@/assets/curso/txt-R.svg", alt="imagen decorativa")
+
+              figure.mb-4(data-aos='flip-up')
+                img.nW.centered(src="@/assets/curso/t3-c4.png", alt="imagen decorativa") 
+              .wrap-txt Para realizar, se deben poner todas las acciones asociadas en la misma etapa.
+
     h3.titulo-tercero
       i.fas.fa-angle-right
       | &nbsp;Evolución
     p.mb-5  El sistema solo puede evolucionar si:
-    //-- Aqui vienen los cards
+    .row.mb-5.justify-content-center
+      .col-lg-4
+        .tarjeta.c1.text-center.p-4
+          figure.mb-4(data-aos='flip-left')
+            img.nW.centered(src="@/assets/curso/t3-ic-check.svg", alt="Evolución del sistema")  
+          .h4 La validación de la transición, las etapas de entrada a la transición deben estar activas.      
+
+      .col-lg-4
+        .tarjeta.c1.text-center.p-4
+          figure.mb-4(data-aos='flip-left')
+            img.nW.centered(src="@/assets/curso/t3-ic-check.svg", alt="Evolución del sistema")  
+          .h4 Que sea cierta la receptividad asociada, ser ciertas las condiciones de la transición.     
 
     p.mb-5  La primera transición se podrá validar si la etapa 123 está activa y, además, se cumple la condición 000. En este momento, deja de estar activa la etapa 123 y toma el relevo la 124. Las etapas 200 y 210 son etapas de entrada a la transición.   
 
@@ -117,7 +201,7 @@
       | &nbsp;Estructuras básicas
     p.mb-5  Existen procesos que requieren estructuras más complejas, en las que se representan bucles, tomas de decisiones o tareas simultáneas que deben sincronizarse. Para estos casos, el GRAFCET dispone de otras estructuras básicas a partir de las cuales pueden generarse los diagramas de dichos progresos. Conózcalas a continuación:
 
-    .tarjeta.mb-5.bg-sliders.p-5
+    .tarjeta.mb-5.bg-sliders.p-5.shadow-box
       SlyderA
         .row
           .col-md-6.mb-4.mb-md-0
@@ -185,8 +269,8 @@
             figure
               img(src='@/assets/curso/t3-s8.png', alt='imagen decorativa')    
 
-
-
+    br
+    br
 
     p.mb-5.text-bold  Para seguir aprendiendo sobre el Gráfico secuencial de funciones Grafcet
     .row.mb-5.justify-content-center
@@ -201,7 +285,7 @@
                   .h3.mb-1 La automatización en la industria química
                   p Ingrese al siguiente libro y lea el capítulo 6 y conozca algunos ejemplos aplicados de Grafcet.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/61458" target="_blank")
                     span Descargar
                     i.fas.fa-link
 
