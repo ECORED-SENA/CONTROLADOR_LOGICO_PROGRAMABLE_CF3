@@ -117,7 +117,17 @@
       | &nbsp;Estructuras básicas
     p.mb-5  Existen procesos que requieren estructuras más complejas, en las que se representan bucles, tomas de decisiones o tareas simultáneas que deben sincronizarse. Para estos casos, el GRAFCET dispone de otras estructuras básicas a partir de las cuales pueden generarse los diagramas de dichos progresos. Conózcalas a continuación:
 
-    //--Aqui viene el slider
+    .tarjeta.tarjeta--azul.p-4.mb-5.bg-sliders
+      h4.titulo-cuarto Tipo A
+      SlyderA
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+        
+          .col-md-6
+            figure
+              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+              figcaption Leyenda de la imagen
   
     p.mb-5.text-bold  Para seguir aprendiendo sobre el Gráfico secuencial de funciones Grafcet
     .row.mb-5.justify-content-center
