@@ -15,10 +15,12 @@
 
     .row.mb-5
       .col-lg-7    
-        p.mb-5 La necesidad de mitigar la pandemia por COVID-19 ha obligado a la comunidad científica internacional, a desarrollar una serie de investigaciones y desarrollos tendientes a presentar una vacuna para hacerle frente a esta enfermedad que aumenta día a día su morbi mortalidad en Colombia. Es así, como en diciembre de 2020, la comunidad científica presenta los resultados de varios desarrollos de vacunas, que ofrecen eficacia y seguridad, respaldados por estudios clínicos rigurosos.
+        .cajon-b.color-acento-secundario.p-3.mb-5(data-aos='flip-up')
+          p.mb-0 Para la elaboración de este componente, se abordaron varios autores conocidos en funcionamiento del cerebro de las máquinas, de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para ser usado por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos aquellos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de la caracterización y uso del Controlador Lógico Programable.
+
       .col-lg-5
-        figure.mb-5
-          img(src="@/assets/curso/banner-intro.jpg", alt="Texto que describa la imagen")
+        figure.mb-5(data-aos='flip-up')
+          img(src="@/assets/curso/t0-i1.jpg", alt="imagen decorativa")
 
 
 

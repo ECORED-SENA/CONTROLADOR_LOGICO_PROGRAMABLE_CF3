@@ -1,12 +1,10 @@
 export default {
   global: {
-    componenteFormativo:
-      'Funcionamiento del cerebro de las máquinas',
+    componenteFormativo: 'Funcionamiento del cerebro de las máquinas',
     descripcionCurso:
       'En el funcionamiento de las máquinas, el cerebro (PLC) debe estar configurado de acuerdo con las funciones que debe cumplir la máquina; en este componente, se podrá verificar que el equipo esté trabajando acorde con el programa introducido en el Controlador Lógico Programable.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
-    
   },
   menuPrincipal: {
     menu: [
@@ -81,20 +79,16 @@ export default {
     {
       referencia:
         'Boix, O. (s. f.). Principios del GRAFCET. Curso de GRAFCET y GEMMA.',
-      link:
-        'https://recursos.citcea.upc.edu/grafcet/intro/princip.html',
+      link: 'https://recursos.citcea.upc.edu/grafcet/intro/princip.html',
     },
     {
       referencia:
         'Castillo, J. (2006). Iniciación a los autómatas programables. Revista de Electricidad, Electrónica y Automática.',
-      link:
-        'http://olmo.pntic.mec.es/~jmarti50/automatas/auto3.htm',
+      link: 'http://olmo.pntic.mec.es/~jmarti50/automatas/auto3.htm',
     },
     {
-      referencia:
-        'Control Real Español. (2015). SLC conexión.',
-      link:
-        'https://controlreal.com/es/memoria-y-ciclo-de-escan/slc-conexion/',
+      referencia: 'Control Real Español. (2015). SLC conexión.',
+      link: 'https://controlreal.com/es/memoria-y-ciclo-de-escan/slc-conexion/',
     },
     {
       referencia:
@@ -105,7 +99,8 @@ export default {
     {
       referencia:
         'Enerxia.net. (s. f.).  AT-AUT: Lenguajes de autómatas: Diagrama de Bloques de Funciones (FBD).',
-      link: 'https://www.enerxia.net/portal/index.php/i-auto/756-at-aut-lenguajes-de-automatas-diagrama-de-funciones-secuenciales-sfc-2',
+      link:
+        'https://www.enerxia.net/portal/index.php/i-auto/756-at-aut-lenguajes-de-automatas-diagrama-de-funciones-secuenciales-sfc-2',
     },
     {
       referencia:
@@ -114,10 +109,8 @@ export default {
         'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/34463',
     },
     {
-      referencia:
-        'Gea, J. (2006). Introducción al GRAFCET. Automatas.org.',
-      link:
-        'https://www.automatas.org/redes/grafcet.htm',
+      referencia: 'Gea, J. (2006). Introducción al GRAFCET. Automatas.org.',
+      link: 'https://www.automatas.org/redes/grafcet.htm',
     },
     {
       referencia:
@@ -125,97 +118,107 @@ export default {
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/124330',
     },
+    {
+      referencia:
+        'Jeck. (2015). Conceptos: Grafcet. Desarrollo de una aplicación gráfica para la edición de diagramas Grafcet y ladder.',
+      link:
+        'https://metalgeargrafcet.wordpress.com/2015/03/16/conceptos-grafcet/',
+    },
+    {
+      referencia:
+        'Leiva, J. (2016). Herramienta para el diseño, simulación y generación de código de sistemas de automatización industrial basados en PLCs. Universidad Nacional del Centro de la Provincia de Buenos Aires.',
+      link:
+        'https://www.ridaa.unicen.edu.ar/xmlui/bitstream/handle/123456789/756/Tesis%20Leiva%20Javier.pdf?sequence=3&isAllowed=y',
+    },
+    {
+      referencia:
+        'Medina, J. (2015). La automatización en la industria química. Universitat Politècnica de Catalunya.',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/61458',
+    },
+    {
+      referencia:
+        'Meneses, J. (2018). Desarrollo y explotación de sistemas automáticos de producción. SlidePlayer.',
+      link: 'https://slideplayer.es/slide/11793024/',
+    },
+    {
+      referencia:
+        'Salazar, J. (2016). Grafcet Una forma simple e intuitiva de programación. SlidePlayer.',
+      link: 'https://slideplayer.es/slide/11117921/',
+    },
+    {
+      referencia:
+        'Saralegui, U. (2013). Contenido básico. Electrónica Digital Básica.',
+      link:
+        'https://sites.google.com/a/educacion.navarra.es/electronica-digital-basica/circuitos-integrados',
+    },
+    {
+      referencia:
+        'Schneider Electric. (2019). Lenguaje de diagrama de bloques de funciones (FBD).',
+      link:
+        'https://product-help.schneider-electric.com/Machine%20Expert/V1.1/es/SoMProg/SoMProg/FBD_LD_IL_Editor/FBD_LD_IL_Editor-4.htm',
+    },
+    {
+      referencia:
+        'Siemens. (2014). Programación estructurada de autómatas Siemens.  InfoPLC.',
+      link:
+        'https://www.infoplc.net/descargas/106-siemens/software-step7-tiaportal/2087-programacion-estructurada-automatas-siemens',
+    },
+    {
+      referencia:
+        'Sistemas Eléctricos Industriales [SEIN]. (s. f.). Temporizadores digitales multifuncionales.',
+      link:
+        'https://sein.com.co/tienda/automatizacion-y-control/temporizadores/temporizadores-digitales-multifuncionales/',
+    },
+    {
+      referencia:
+        'Vaello, J. (2019). Lenguaje de contactos. Automatismo industrial.',
+      link:
+        'https://automatismoindustrial.com/automatas/g-1-introduccion-automatas-programables-plcs/d-9-4-lenguaje-de-contactos/',
+    },
+    {
+      referencia: 'Vásquez, V. (s. f.). Automation Studio.',
+      link: 'http://homepage.cem.itesm.mx/vlopez/grafcet.htm',
+    },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Circuitos combinacionales',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'las salidas únicamente dependen de la combinación de las entradas y no de la historia anterior del circuito, y no disponen de memoria.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Circuitos secuenciales',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'las salidas dependen de la historia anterior del circuito, de la combinación de las entradas; disponen de memoria y del orden de la secuencia.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Norma IEC',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
-    },
-    {
-      termino: '<em>Áectores</em>',
-      significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
-    },
-    {
-      termino: 'Moda',
-      significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
-    },
-    {
-      termino: 'Diseña',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'son las reglas y definiciones concertadas por la Comisión Electrotécnica Internacional, permiten a los ingenieros y diseñadores hablar el mismo idioma (normalización).',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Daneri, P. (2009). PLC: automatización y control industrial. HASA.',
+      tipo: 'Capítulo, Leer Capítulo 3',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/66558',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Medina, J., Guadayol, J. (2015). La automatización en la industria química. Edicions UPC.',
+      tipo: 'Capítulo, Leer Capítulo 6',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/61458',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+        'Mentalidad De Ingeniería. (2021). Conceptos Básicos del Controlador Lógico Programable Explicados [Video]. YouTube.',
       tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      link:
+        'https://www.youtube.com/watch?v=NPsepHRSCls&ab_channel=MentalidadDeIngenier%C3%ADa',
     },
   ],
   creditos: {
@@ -231,7 +234,28 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Hernando José Góngora Valencia',
+        cargo: 'Profesional de diseño curricular',
+        centro: 'Centro de Diseño Industrial - Regional Valle del Cauca',
+      },
+      {
+        nombre: 'Paola Moya Peralta',
+        cargo: 'Diseñadora instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Silvia MIlena Sequeda Cárdenas',
+        cargo: 'Revisor Metodológico y Pedagógico',
+        centro: 'Centro de gestión industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima',
       },
     ],
     desarrolloProducto: [
@@ -239,43 +263,49 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Jorge Armando Villamizar Moreno',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Luis Fabian Robles Méndez',
+        cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Nombre',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Nombre',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },
