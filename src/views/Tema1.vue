@@ -124,7 +124,7 @@
                   p Ingrese al siguiente libro y lea el capítulo 3 para conocer más sobre los sistemas lógicos.
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/66558" target="_blank")
-                    span Descargar
+                    span Enlace
                     i.fas.fa-link
 
 

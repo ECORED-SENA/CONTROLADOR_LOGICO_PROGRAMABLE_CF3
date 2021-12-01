@@ -286,7 +286,7 @@
                   p Ingrese al siguiente libro y lea el capítulo 6 y conozca algunos ejemplos aplicados de Grafcet.
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/61458" target="_blank")
-                    span Descargar
+                    span Enlace
                     i.fas.fa-link
 
 
