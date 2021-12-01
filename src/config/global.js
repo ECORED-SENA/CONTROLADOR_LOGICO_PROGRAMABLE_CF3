@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Funcionamiento del cerebro de las máquinas',
     descripcionCurso:
       'En el funcionamiento de las máquinas, el cerebro (PLC) debe estar configurado de acuerdo con las funciones que debe cumplir la máquina; en este componente, se podrá verificar que el equipo esté trabajando acorde con el programa introducido en el Controlador Lógico Programable.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {

@@ -110,6 +110,22 @@
             figure
               img.nW(src='@/assets/curso/t1-t6.png', alt='imagen decorativa')
 
+    p.mb-5.text-bold  Para profundizar más sobre los sistemas lógicos:
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/t3-im1.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  .h3.mb-1 PLC: automatización y control industrial
+                  p Ingrese al siguiente libro y lea el capítulo 3 para conocer más sobre los sistemas lógicos.
+                .col-sm-auto
+                  a.boton.color-acento-botones(href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/66558" target="_blank")
+                    span Descargar
+                    i.fas.fa-link
 
 
 
@@ -124,46 +140,13 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
-    //- se encuentra en src/components/Muestras.vue
-    //- Una vez el componente "Muestras" no se necesite 
-    //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
-    //- esto evitará que se compile en la carpeta final de distribución
-    Muestras
   
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  components: {},
   data: () => ({
     // variables de vue
   }),

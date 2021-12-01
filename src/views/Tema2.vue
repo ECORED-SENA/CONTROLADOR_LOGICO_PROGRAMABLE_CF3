@@ -167,8 +167,8 @@
               .titulo-sexto.color-secundario
                 h4 Bloques de funciones (FB)
               p.mb-3 Las funciones representadas por bloques son ejecutadas como PID, estas se adaptan al estándar IEC. El control se puede hacer por parámetros externos, mientras los algoritmos internos permanecen ocultos y emplean la programación orientada a objetos.
-            .clearfix
-            .col-lg-5
+            .clearfix.mb-4
+            .col-lg-4
               figure
                 img(src='@/assets/curso/t2-t7.png', alt='imagen decorativa')
 
