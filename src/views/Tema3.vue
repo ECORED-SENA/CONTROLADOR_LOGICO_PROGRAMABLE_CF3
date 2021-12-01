@@ -117,22 +117,93 @@
       | &nbsp;Estructuras básicas
     p.mb-5  Existen procesos que requieren estructuras más complejas, en las que se representan bucles, tomas de decisiones o tareas simultáneas que deben sincronizarse. Para estos casos, el GRAFCET dispone de otras estructuras básicas a partir de las cuales pueden generarse los diagramas de dichos progresos. Conózcalas a continuación:
 
-    .tarjeta.tarjeta--azul.p-4.mb-5.bg-sliders
-      h4.titulo-cuarto Tipo A
+    .tarjeta.mb-5.bg-sliders.p-5
       SlyderA
         .row
           .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+            .h4.color-secundario Secuencia única
+            p Es cuando en el diagrama hay una sola rama; el conjunto de etapas se irá activando una tras la otra.
         
           .col-md-6
             figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-  
+              img(src='@/assets/curso/t3-s1.png', alt='imagen decorativa')
+
+        .row
+          .col-md-6.mb-4.mb-md-0
+            .h4.color-secundario Bifurcación en O. Selección de secuencia
+            p Se presenta cuando, al llegar a un punto, se encuentra una bifurcación en O, en la que será necesario escoger cuál de las distintas sucesiones de etapas y transiciones se debe seguir.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/t3-s2.png', alt='imagen decorativa')
+              
+        .row
+          .col-md-6.mb-4.mb-md-0
+            .h4.color-secundario Giro a derecha o a izquierda de un motor
+            p Para seleccionar el sentido de giro de un motor, se utiliza la bifurcación en O. Un motor puede girar a la derecha o a la izquierda.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/t3-s3.png', alt='imagen decorativa')
+
+        .row
+          .col-md-6.mb-4.mb-md-0
+            .h4.color-secundario Bifurcación en Y.
+            p Trabajos en paralelo: en automatismo, habrá una bifurcación en Y o "Trabajos paralelos" cuando, a partir de un punto, debe evolucionar de forma simultánea por todas las ramas. Al final de estas, se encontrarán  unas etapas de espera (108,132,155). El sistema continuará su evolución cuando cada una de las ramas haya llegado a su etapa de espera. El nombre de las etapas de las diferentes ramas puede ser distinto de una a la otra.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/t3-s4.png', alt='imagen decorativa')              
+
+        .row
+          .col-md-6.mb-4.mb-md-0
+            .h4.color-secundario Motores con trabajos simultáneos
+            p Dos motores MA y MB desplazan unas piezas. Primero, el motor MA va desde FcAe FcAd, entonces es ei MB quien lo hace desde FcBe hasta FcBd. Después, los dos vuelven a las posiciones iniciales FcAe y FcBe. El ciclo se reinicia cuando los dos están de nuevo en las posiciones iniciales.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/t3-s5.png', alt='imagen decorativa')       
+
+        .row
+          .col-md-6.mb-4.mb-md-0
+            .h4.color-secundario Saltos de etapas
+            p En un punto, puede haber una bifurcación que provoque un salto sobre el conjunto de etapas, que se siga o no la secuencia completa o bien el salto está determinado por el estado de la condición a la transición (H). También puede realizarse el salto en sentido ascendente (en este caso, se indica en las líneas de enlace), como pasa en los bucles.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/t3-s6.png', alt='imagen decorativa')    
+
+        .row
+          .col-md-6.mb-4.mb-md-0
+            .h4.color-secundario Bucles
+            p Habrá un bucle o estructura repetitiva (mientras) cuando una o un conjunto de etapas se repitan varias veces, controladas por un contador, temporizador o hasta que se cumpla una condición determinada. El ciclo de lavado de una lavadora repite varias veces esta estructura (giro a la derecha espera, giro a la izquierda, espera).
+          .col-md-6
+            figure
+              img(src='@/assets/curso/t3-s7.png', alt='imagen decorativa')    
+
+
+        .row
+          .col-md-6.mb-4.mb-md-0
+            .h4.color-secundario Subrutina
+            p Una subrutina es una parte de un programa que realiza una tarea concreta, a la que se puede recurrir una o varias veces por parte del programa principal. Una vez realizadas las acciones de la subrutina, el programa continúa en el punto donde estaba.   
+          .col-md-6
+            figure
+              img(src='@/assets/curso/t3-s8.png', alt='imagen decorativa')    
+
+
+
+
     p.mb-5.text-bold  Para seguir aprendiendo sobre el Gráfico secuencial de funciones Grafcet
     .row.mb-5.justify-content-center
       .col-lg-10
-        //-- Aqui viene el call to action
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/t3-im1.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  .h3.mb-1 La automatización en la industria química
+                  p Ingrese al siguiente libro y lea el capítulo 6 y conozca algunos ejemplos aplicados de Grafcet.
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-link
 
 
 
