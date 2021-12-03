@@ -4,7 +4,8 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal.color-acento-botones(data-aos='flip-up')
       .titulo-principal__numero
-        span 
+        span
+          i.fas.fa-sitemap
       h1 Síntesis
     figure.mb-5
       img(src="@/assets/curso/t0-s1.svg", alt="sintesis")
