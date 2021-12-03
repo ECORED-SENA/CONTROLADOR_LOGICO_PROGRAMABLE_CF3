@@ -10,7 +10,7 @@
     .row.mb-5
       .col-lg-7.slideInRight   
         .cajon-b.color-acento-secundario.p-3.mb-5(data-aos='flip-up')
-          p.mb-3  Los lenguajes de programación permiten al usuario escribir las instrucciones o secuencias de órdenes en un sistema informático utilizando algoritmos, de manera que se pueda controlar la máquina y ejecute las tareas deseadas por él. Por medio del software, el usuario interactúa con el equipo, haciendo uso del lenguaje de programación que más le conviene, teniendo en cuenta que existen varios tipos: esquema de contactos, mnemónico o listado de contactos, esquema funcional. En el siguiente recurso, se profundizará en cada lenguaje: 
+          p.mb-3  Los lenguajes de programación permiten al usuario escribir las instrucciones o secuencias de órdenes en un sistema informático utilizando algoritmos, de manera que se pueda controlar la máquina y ejecute las tareas deseadas por él. Por medio del <i>software</i>, el usuario interactúa con el equipo, haciendo uso del lenguaje de programación que más le conviene, teniendo en cuenta que existen varios tipos: esquema de contactos, mnemónico o listado de contactos, esquema funcional. En el siguiente recurso, se profundizará en cada lenguaje: 
 
       .col-lg-5.slideInLeft
         figure.mb-5(data-aos='flip-left')
@@ -27,7 +27,13 @@
             .col-10.col-lg-5
               .titulo-sexto.color-secundario
                 h4 Esquema de contactos
-              p.mt-3 Este lenguaje gráfico se deriva del lenguaje de relevadores o Ladder, es muy utilizado para programar los PLC y se representa mediante contactos, solenoides y otros símbolos (diagrama de relés) eléctricos básicos de la norma IEC. Su representación inicia con:
+              p.mb-4 Este lenguaje gráfico se deriva del lenguaje de relevadores o Ladder, es muy utilizado para programar los PLC y se representa mediante contactos, solenoides y otros símbolos (diagrama de relés) eléctricos básicos de la norma IEC. Su representación inicia con:
+              .tarjeta.cc1.p-4.mb-4
+                p.mb-0.text-center  Dos líneas verticales que simbolizan las líneas de alimentación, entre las cuales se instalan las instrucciones.
+              .tarjeta.cc2.p-4.mb-4
+                p.mb-0.text-center  Es comprendido por las ramas de contactos conectados en serie o en paralelo que deben dar respuesta a una salida que acciona una función especial o puede activar una bobina. 
+              .tarjeta.cc3.p-4.mb-4
+                p.mb-0.text-center Los símbolos básicos son el contacto normalmente abierto, contacto normalmente cerrado y salida.            
             .col-8.col-lg-5
               figure
                 img(src='@/assets/curso/t2-t2.png', alt='imagen decorativa')

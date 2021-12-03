@@ -85,7 +85,7 @@
                     p.mb-0  La activación de otra etapa del Grafcet [ X 2 ] 
                   li
                     i.fas.fa-check
-                    p.mb-0  Donde X indica que la receptividad está condicionada al hecho que la etapa 2 este activa.                                       
+                    p.mb-0  Donde X indica que la receptividad está condicionada al hecho que la etapa 2 esté activa.                                       
                                          
             .col-lg-6
               .p-4
@@ -138,7 +138,7 @@
 
               figure.mb-4(data-aos='flip-up')
                 img.nW.centered(src="@/assets/curso/t3-c2.png", alt="imagen decorativa") 
-              .wrap-txt Entre las etapas 200 y 201 o entre las etapas 200 y 202 hay dos condiciones para la transición (000 y 001 o 000 y 002). No es correcto.    
+              .wrap-txt Este caso se puede resolver haciendo que la receptividad de la transición se cumpla si es válida la función And (000 * 001) o la (000 * 002).  
 
       .py-3.py-md-4(titulo="Ejemplo 2")
         .row.justify-content-center
