@@ -11,7 +11,7 @@
     p.mb-5  Estimado aprendiz, bienvenido al componente formativo “Funcionamiento del cerebro de las máquinas”. Para iniciar, visualice el siguiente video y conozca más:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/9M7KGMbQ0ek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.mb-5
       .col-lg-7    
