@@ -16,7 +16,7 @@
     .row.mb-5
       .col-lg-7    
         .cajon-b.color-acento-secundario.p-3.mb-5(data-aos='flip-up')
-          p.mb-0 Para la elaboración de este componente, se abordaron varios autores conocidos en funcionamiento del cerebro de las máquinas, de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para ser usado por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos aquellos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de la caracterización y uso del Controlador Lógico Programable.
+          p.mb-0 Para la elaboración de este componente, se abordaron varios autores conocidos en funcionamiento del cerebro de las máquinas, de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para ser usado por quienes necesitan adquirirlo. Se espera que este componente formativo sea útil para todos aquellos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de la caracterización y uso del Controlador Lógico Programable.
 
       .col-lg-5
         figure.mb-5(data-aos='flip-up')

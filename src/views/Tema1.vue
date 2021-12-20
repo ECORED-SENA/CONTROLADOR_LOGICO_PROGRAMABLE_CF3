@@ -99,7 +99,7 @@
             ul.lista-ul
               li
                 i.fas.fa-check
-                p.mb-0  <b>OB 1:</b> Los módulos de organización (OB), que son los que gestionan el programa del usuario y están numerados como OB1 (programa principal), OB3 (controlado por alarma), OB13 (controlado por tiempo) y OB22 (sistema operativo).
+                p.mb-0  <b>OB1:</b> Los módulos de organización (OB), que son los que gestionan el programa del usuario y están numerados como OB1 (programa principal), OB3 (controlado por alarma), OB13 (controlado por tiempo) y OB22 (sistema operativo).
               li
                 i.fas.fa-check
                 p.mb-0  <b>FB:</b> Los módulos funcionales (FB), aquí se introducen las partes del programa con uso frecuente o las que poseen mayor complejidad y van desde FB0 a FB63.                

@@ -239,7 +239,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             .h4.color-secundario Motores con trabajos simultáneos
-            p Dos motores MA y MB desplazan unas piezas. Primero, el motor MA va desde FcAe FcAd, entonces es ei MB quien lo hace desde FcBe hasta FcBd. Después, los dos vuelven a las posiciones iniciales FcAe y FcBe. El ciclo se reinicia cuando los dos están de nuevo en las posiciones iniciales.
+            p Dos motores MA y MB desplazan unas piezas. Primero, el motor MA va desde FcAe FcAd, entonces es el MB quien lo hace desde FcBe hasta FcBd. Después, los dos vuelven a las posiciones iniciales FcAe y FcBe. El ciclo se reinicia cuando los dos están de nuevo en las posiciones iniciales.
           .col-md-6
             figure
               img(src='@/assets/curso/t3-s5.png', alt='imagen decorativa')       
